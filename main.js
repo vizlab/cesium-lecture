@@ -1,5 +1,5 @@
 var viewer = new Cesium.Viewer('cesiumContainer');
-var getCSV = d3.dsv('\t', 'text/csv; charset=shift_jis');
+var getCSV = d3.dsv(',', 'text/csv; charset=shift_jis');
 getCSV('data.csv', (data) => {
   // TODO ここに処理を書く
 });
